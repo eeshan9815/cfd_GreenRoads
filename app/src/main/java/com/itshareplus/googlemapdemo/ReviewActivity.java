@@ -210,7 +210,7 @@ public class ReviewActivity extends FragmentActivity implements OnMapReadyCallba
         safeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ReviewActivity.this, SafeActivity.class);
+                Intent intent = new Intent(ReviewActivity.this, DetailActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 finish();
